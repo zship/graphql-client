@@ -1,0 +1,7 @@
+#!/bin/bash
+
+prettier_d --stdin --parser babylon \
+  --print-width 80 \
+  --semi false \
+  --trailing-comma all \
+  --single-quote
